@@ -1,0 +1,73 @@
+<style type="text/css">
+		.header {
+			background-color: #ddd;
+			min-height: 100px;
+			width: 800px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 10px;
+		}
+		.logo{
+			width: 150px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.menu ul li{
+			width: 200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.content{
+			background-color: #eee;
+			min-height: 450px;
+			width: 800px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.thumbnail {
+			background-color: #6495ED;
+			text-align: center;
+			padding: 10px;
+			width: 225px;
+			margin: 10px;
+			float: left;
+		}
+		.thumbnail img{
+			width: 100%;
+		}
+
+    ul.submenu {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position:absolute;
+    top: 10px;
+    left: 0;
+    display: none;
+    }
+    .menu ul li:hover ul.submenu{
+    	display: block;
+    }
+    .menu ul li{
+    	display:inline-block;
+    	position: relative;
+    }
+    ul.submenu li{
+    	display: block;
+    }
+    ul.submenu li a{
+    	display: block;
+    	padding: 5px 10px;
+    }
+		.footer{
+			background-color: #ddd;
+			min-height: 50px;
+			width: 790px;
+			margin: 0 auto;
+			padding: 10px;
+			text-align: center;
+    }
+}
+
+	</style>
